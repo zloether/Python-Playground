@@ -3,6 +3,9 @@
 # updated: January 8, 2017
 
 #------------------------------------------------------------------------------
+# pyodbc documentation:
+# https://mkleehammer.github.io/pyodbc/
+
 # SYSTEM REQUIREMENTS:
 # This script was written for Python 2.x running on a Windows system. It should
 # work with Python 3.x as well.
