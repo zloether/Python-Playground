@@ -26,3 +26,16 @@ def luhn10(card_number):
         sum = sum + digit
 
     return ( (sum % 10) == 0 )
+
+
+
+if __name__ == "__main__":
+   from sys import argv
+   try:
+       script, credit_card_number = argv
+   except:
+       print("Usage: This script takes a credit card number as an argument" +\
+                "and returns if the number passes luhn10 validation.")
+       exit()
+
+   print(luhn10(credit_card_number))
