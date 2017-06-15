@@ -2,8 +2,10 @@
 # download_file.py
 
 #------------------------------------------------------------------------------
-# imports
+# This script will download a file using a provided URL
 #------------------------------------------------------------------------------
+
+# imports
 import requests
 try:
     from requests.packages.urllib3.exceptions import InsecureRequestWarning
